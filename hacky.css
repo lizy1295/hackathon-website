@@ -1,0 +1,220 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color:#7a3061;
+  color: #e2dcdc;
+  line-height: 1.6;
+}
+
+a {
+  text-decoration: none;
+}
+
+header {
+  background-color: #2e0425;
+  color: white;
+  text-align:left;
+  padding: 1.5rem 0;
+  justify-content: space-between;
+  align-items:normal;
+  position:fixed;
+  width:100%;
+  top:0;
+  left:0;
+
+}
+
+header h1 {
+  margin-bottom: 10px;
+}
+
+nav a {
+  color: white;
+  font-weight: bold;
+  margin: 0 20px;
+  font-size:1.5rem;
+  
+}
+nav{
+  display: flex;
+  justify-content: center;
+  gap:40px;
+  padding: 10px 0;
+}
+ 
+nav a:hover {
+  text-decoration: underline;
+  color: #dfb6b2;
+}
+
+section {
+  padding: 50px 20px;
+  max-width: 900px;
+  margin: auto;
+}
+
+/* ===================== BUTTONS ===================== */
+button, .btn-main {
+  background-color: #86888b;
+  color: white;
+  padding: 12px 25px;
+  border-radius: 8px;
+  border: none;
+  font-weight: bold;
+  cursor: pointer;
+  display: inline-block;
+  text-align: center;
+}
+
+button:hover, .btn-main:hover {
+  background-color: #190019;
+}
+
+.hero{
+  background: url('ererrf.jpg')no-repeat center center/cover;
+  color: white;
+  padding: 100px 20px;
+  text-align: center;
+  border-radius: 15px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+}
+.hero-content {
+  background: rgba(0, 0, 0, 0.6);
+  display: inline-block;
+  padding: 40px;
+  border-radius: 15px;
+  max-width: 700px;
+  margin: auto;
+}
+
+.intro, .features, .cta {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.features {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 20px;
+}
+
+.feature {
+  flex: 1 1 250px;
+  background-color: #522b5b;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+}
+
+.cta {
+  background-color: #dfb6b2;
+  color: white;
+  border-radius: 15px;
+  padding: 40px 20px;
+  margin-top: 40px;
+}
+
+/* ===================== ABOUT PAGE ===================== */
+.about-section {
+  background-color: #dfb6b2;
+  padding: 50px 20px;
+  border-radius: 15px;
+  margin-bottom: 40px;
+}
+
+.about-section h2 {
+  color: #004aad;
+  margin-bottom: 20px;
+}
+
+.about-section p {
+  font-size: 1.1rem;
+}
+
+
+.register-form {
+  max-width: 600px;
+  margin: auto;
+  background-color: white;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+.register-form input,
+.register-form select,
+.register-form textarea {
+  width: 100%;
+  padding: 0.8rem;
+  margin: 0.5rem 0 1rem 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+.register-form button {
+  width: 100%;
+  background-color: #004aad;
+  color: white;
+  border: none;
+  padding: 1rem;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+}
+.note {
+  background-color: #ffeb3b;
+  padding: 1rem;
+  border-radius: 6px;
+  margin-bottom: 1rem;
+  font-weight: bold;
+  text-align: center;
+}
+.tg-btn {
+  background-color: #0088cc;
+  color: white;
+  padding: 0.8rem 1.2rem;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: bold;
+}
+.update-box {
+  text-align: center;
+  background-color: #f0f4ff;
+  padding: 30px;
+  margin: 50px auto;
+  border-radius: 15px;
+  width: 80%;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.update-box p {
+  font-size: 1.1rem;
+  margin-bottom: 15px;
+  color: #333;
+}
+
+.update-box button {
+  background-color: #0088cc;
+  color: white;
+  border: none;
+  padding: 12px 25px;
+  font-size: 1rem;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.update-box button:hover {
+  background-color: #0073aa;
+}
+footer {
+  text-align: center;
+  padding: 1rem;
+  background-color: #004aad;
+  color: white;
+  margin-top: 2rem;
+}

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="hacky.css">
+    <style>
+
+    h1{
+      color: #fff;
+    }
+    h2{
+      color:#75347a;
+    }
+    </style>
+</head>
+<body>
+    <header> 
+        <h1>Register for AMUCREATE Hackathon 2018EC</h1>
+          <nav>
+      <a href="home.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="projects.html">Projects</a>
+      <a href="register.html">Register</a>
+    </nav>
+  </header>
+
+  <section>
+    <h2>Join the Hackathon!</h2>
+    <p>Fill out the form below to register. Everyone is welcomed !!</p>
+    <section id="form-action" class="form">
+
+    <form action="#" method="post" class="register-form">
+      <label for="name">Full Name:</label><br>
+      <input type="text" id="name" name="name" placeholder="Enter your full name" required><br><br>
+
+      <label for="email">Email Address:</label><br>
+      <input type="email" id="email" name="email" placeholder="you@example.com" required><br><br>
+
+      <label for="age">Age:</label><br>
+      <input type="number" id="age" name="age" min="13" placeholder="Your age" required><br><br>
+
+      <label for="country">Country:</label><br>
+      <input type="text" id="country" name="country" placeholder="e.g. Ethiopia" required><br><br>
+
+      <label for="skill">Your Skill Level:</label><br>
+      <select id="skill" name="skill" required>
+        <option value="">-- Select --</option>
+        <option value="beginner">Beginner (new to coding)</option>
+        <option value="intermediate">Intermediate (some experience)</option>
+        <option value="advanced">Advanced (confident coder)</option>
+      </select><br><br>
+
+      <label for="project">Do you have a project idea?</label><br>
+      <textarea id="project" name="project" rows="4" placeholder="Briefly describe your idea (optional)"></textarea><br><br>
+
+      <button type="submit">Submit Registration</button>
+    </form>
+     </section>
+    <p class="note">Once you register, we’ll send you details about how to join and prepare for the event!</p>
+  </section>
+  <script>
+    function redirectToTelegram() {
+      event.preventDefault();
+      alert("Registration succesful! Join our Telegram channel to get your next project updated.");
+      window.location.href ="http://t.me/AMUCREATE";}
+       </script>
+  
+
+  <footer>
+    <p>© 2025 CodeSpark Hackathon</p>
+  </footer>
+</body>
+    </header>
+    
+</body>
+</html>
